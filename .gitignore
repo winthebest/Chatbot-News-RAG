@@ -1,0 +1,192 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+conda/
+.conda/
+
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Raw crawled data
+data/raw/*.json
+data/raw/*.csv
+data/raw/*.jsonl
+
+# Processed chunks (can be regenerated)
+data/processed/*.jsonl
+data/processed/*.json
+
+# Embeddings (can be regenerated)
+data/processed/*_embeddings.jsonl
+data/processed/*_embeddings.json
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+
+# Hugging Face models cache
+.cache/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Sentence Transformers cache
+~/.cache/torch/
+~/.cache/huggingface/
+
+
+news_crawler/chrome-win64/
+news_crawler/chromedriver*
+news_crawler/geckodriver*
+*.exe
+*.dll
+
+# Selenium logs
+selenium.log
+geckodriver.log
+chromedriver.log
+
+
+# Qdrant
+qdrant_storage/
+qdrant_data/
+*.qdrant
+
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+config.json
+api_keys.txt
+
+
+# Logs
+*.log
+logs/
+*.log.*
+log/
+
+
+# OS Files
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+.Trash-*
+
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+.cache/
+
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+*.py,cover
+
+
+# Jupyter & Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# Gradio
+flagged/
+gradio_cached_examples/
+
+
+# Project Specific
+# Keep README and requirements.txt
+!README.md
+!requirements.txt
+
+# Ignore large data files but keep structure
+!data/
+!data/raw/
+!data/processed/
+

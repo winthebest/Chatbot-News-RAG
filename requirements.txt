@@ -1,0 +1,28 @@
+# Core RAG and Embedding Dependencies
+sentence-transformers>=2.2.0
+qdrant-client>=1.7.0
+
+# LLM Integration
+ollama>=0.1.0
+httpx==0.28.1
+# Web Scraping
+selenium>=4.15.0
+deep-translator==1.11.4
+beautifulsoup4==4.14.2
+# Translation
+deep-translator>=1.11.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Web UI
+gradio>=4.0.0
+
+# Optional: For CUDA support (if using GPU)
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+
+
+
+
